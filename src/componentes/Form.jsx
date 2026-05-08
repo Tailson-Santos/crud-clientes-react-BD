@@ -1,6 +1,6 @@
 export function Form({ form, setForm, add, editando, cancelarEdicao }) {
   return (
-    <form className="flex flex-col justify-center h-full w-1/3 bg-gray-900" onSubmit={add}>
+    <form className="flex flex-col justify-center w-full md:w-1/3 bg-gray-900 p-4" onSubmit={add}>
       <h1 className="text-white text-4xl">
         {editando ? "Editar Cliente" : "Cadastro"}
       </h1>

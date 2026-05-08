@@ -127,7 +127,7 @@ function App() {
   }
 
   return (
-    <div className='flex h-screen w-screen'>
+    <div className='flex flex-col md:flex-row min-h-screen w-full'>
       <Form
         form={form}
         setForm={setForm}

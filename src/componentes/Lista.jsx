@@ -2,7 +2,7 @@ import { Card } from "./Card";
 
 export function Lista({ users, deletar, editar }) {
   return (
-    <div className="w-full bg-gray-200 p-4 overflow-y-auto">
+    <div className="w-full md:w-2/3 bg-gray-200 p-4 overflow-y-auto">
       <h2 className="text-2xl font-bold mb-4">
         Lista de Clientes ({users.length})
       </h2>
